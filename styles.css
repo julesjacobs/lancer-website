@@ -21,7 +21,7 @@ body {
 header {
   background-color: #ffffff; /* Set header background to white */
   color: #333; /* Adjust text color if necessary */
-  padding: 1rem 0;
+  padding: 0 5rem 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
