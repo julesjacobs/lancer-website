@@ -49,7 +49,7 @@ header p {
 nav,
 footer {
   /* background-color: #f4f4f4;  */
-  background-color: #ddd;
+  background-color: #ccc;
 }
 
 .nav-container {
@@ -73,13 +73,13 @@ nav ul li a {
   display: block;
   text-align: center;
   padding: 0.5rem 0;
-  color: #333; /* Dark text for contrast */
+  color: #222;
   text-decoration: none;
   transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-  background-color: #bbb; /* Slightly darker background for hover effect */
+  background-color: #bbb;
 }
 
 section {
