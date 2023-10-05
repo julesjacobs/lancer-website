@@ -110,6 +110,19 @@ section a:hover {
   text-decoration: underline;
 }
 
+#cornell-logo {
+  float: right;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 2em;
+}
+
+@media (max-width: 500px) {
+  #cornell-logo {
+    display: none;
+  }
+}
+
 footer {
   text-align: center;
   padding: 1rem 0;
