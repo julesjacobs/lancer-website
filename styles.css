@@ -58,6 +58,10 @@ nav ul {
   justify-content: space-around;
 }
 
+nav ul li {
+  flex: 1 1 auto;
+}
+
 nav ul li a {
   display: block;
   text-align: center;
