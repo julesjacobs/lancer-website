@@ -19,22 +19,22 @@ body {
 }
 
 header {
-  background-color: #ffffff; /* Set header background to white */
-  color: #333; /* Adjust text color if necessary */
-  padding: 0 5rem 0 0;
+  background-color: #ffffff;
+  color: #333;
+  padding: 0 3rem 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #lancer-logo {
-  max-width: 150px; /* Adjust based on your logo's size */
-  margin-right: 2rem; /* Space between logo and title/description */
+  max-width: 150px;
+  margin-right: 2rem;
 }
 
 #header-content {
-  text-align: left; /* Align the title and description to the left */
+  text-align: left;
 }
 
 header h1 {
@@ -48,25 +48,14 @@ header p {
 
 nav,
 footer {
-  /* background-color: #f4f4f4;  */
   background-color: #ccc;
 }
 
-.nav-container {
+nav ul {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-}
-
-nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav ul li {
-  flex: 1;
+  justify-content: space-around;
 }
 
 nav ul li a {
